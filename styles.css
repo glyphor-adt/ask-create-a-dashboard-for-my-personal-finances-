@@ -1,0 +1,25 @@
+/* Custom styles for Personal Finance Dashboard */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-top: 10px;
+}
+
+input {
+    width: 100px;
+    max-width: 200px;
+}
+
+#expenses {
+    margin-top: 20px;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #e2e8f0;
+}
