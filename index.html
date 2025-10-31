@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Dashboard</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <div class="container mx-auto p-4">
+        <h1 class="text-4xl font-bold mb-4">Personal Finance Dashboard</h1>
+        <div class="shadow-md rounded-lg overflow-hidden">
+            <div id="chart" class="bg-white p-4"></div>
+            <form id="expense-form" class="bg-white p-4">
+                <input type="text" id="expense-name" placeholder="Expense Name" class="border rounded p-2 mr-2">
+                <input type="number" id="expense-amount" placeholder="Amount" class="border rounded p-2 mr-2">
+                <button class="bg-blue-500 text-white py-2 px-4 rounded">Add Expense</button>
+            </form>
+            <div id="expenses" class="bg-white p-4"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
